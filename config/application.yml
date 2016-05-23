@@ -1,0 +1,14 @@
+defaults: &defaults
+  domain: 'sandboxc0248205473845c3a998e44941ee503e.mailgun.org'
+  username: 'postmaster@sandboxc0248205473845c3a998e44941ee503e.mailgun.org'
+  password: '8936ecbed99856a2d9f26ac180107d9c'
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+ 
+production:
+  <<: *defaults
+  
